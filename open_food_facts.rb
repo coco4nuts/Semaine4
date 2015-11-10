@@ -10,5 +10,5 @@ loop do
     json = open(url).read
     data = JSON.parse(json)
 
-    puts data['product']['product_name']['energy']
+    puts data['product']['product_name']
 end
